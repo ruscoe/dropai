@@ -32,9 +32,14 @@ Using plugins for an AI pipeline enhances modularity and flexibility by allowing
 
 * **Storage plugins** save embeddings and related metadata into a vector database. This can be an external SaaS solution or a local MongoDB Atlas database for a pure localhost solution.
 
+## Getting Started
 
+### ChatGPT
 
-
-
-
-
+1. Enable the **DropAI** and **DropAI ChatGPT** modules
+2. Clear the site cache
+3. In the **Configuration / OpenAI** section, enter your OpenAI API key ([get an API key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key))
+4. In the **Structure / Block Layout** section, choose a region and click **Place block**
+5. Next to **ChatGPT Chat Block**, click **Place block** then **Save block**
+6. At the bottom of the page, click **Save blocks**
+7. View your site. The ChatGPT chat box should now be visible in the region you configured
